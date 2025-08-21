@@ -41,6 +41,8 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :scissors: Operations
 #### :camera: Street-Level
 #### :white_check_mark: Validation
+* Show warnings for potentially incompatible sources also in changeset `source` tags ([#11334])
+* Include the number of changeset tags with incompatible sources in `warnings:incompatible_source` changeset tag ([#8400])
 #### :bug: Bugfixes
 #### :earth_asia: Localization
 #### :hourglass: Performance
@@ -49,7 +51,9 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :mortar_board: Walkthrough / Help
 #### :hammer: Development
 
+[#8400]: https://github.com/openstreetmap/iD/issues/8400
 [#11141]: https://github.com/openstreetmap/iD/pull/11141
+[#11334]: https://github.com/openstreetmap/iD/pull/11334
 [#11353]: https://github.com/openstreetmap/iD/pull/11353
 
 
