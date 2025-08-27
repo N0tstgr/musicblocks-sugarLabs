@@ -694,6 +694,7 @@ export function coreHistory(context) {
 
             if (value !== null) {
                 await asyncPrefs.set('saved_history', value);
+                prefs('has_saved_history', true);
                 prefs(this._getLegacyKey('saved_history'), null);
             }
         },
