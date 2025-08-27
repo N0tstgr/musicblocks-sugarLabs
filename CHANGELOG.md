@@ -35,7 +35,8 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 [@xxxx]: https://github.com/xxxx
 -->
 
-# unreleased (v2.36.0-dev)
+# v2.36.0
+##### 2025-08-27
 
 #### :sparkles: Usability & Accessibility
 * use `addr:` tags to label features with no name ([#8440], thanks [@k-yle])
