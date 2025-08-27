@@ -45,9 +45,11 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :earth_asia: Localization
 #### :hourglass: Performance
 * Compress changesets before uploading, to slightly reduce bandwidth ([#11353], thank [@k-yle])
+* Migrate stored history data from LocalStorage to IndexedDB which allows larger amount of changed data to be stored and enhanced performance ([#11141], thanks [@Deeptanshu-sankhwar])
 #### :mortar_board: Walkthrough / Help
 #### :hammer: Development
 
+[#11141]: https://github.com/openstreetmap/iD/pull/11141
 [#11353]: https://github.com/openstreetmap/iD/pull/11353
 
 
