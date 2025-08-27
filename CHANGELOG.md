@@ -44,8 +44,11 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :bug: Bugfixes
 #### :earth_asia: Localization
 #### :hourglass: Performance
+* Compress changesets before uploading, to slightly reduce bandwidth ([#11353], thank [@k-yle])
 #### :mortar_board: Walkthrough / Help
 #### :hammer: Development
+
+[#11353]: https://github.com/openstreetmap/iD/pull/11353
 
 
 # v2.36.0
