@@ -40,6 +40,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :sparkles: Usability & Accessibility
 #### :scissors: Operations
 #### :camera: Street-Level
+* Always hide sequence lines when their photos are hidden by the date filter ([#11365])
 #### :white_check_mark: Validation
 * Show warnings for potentially incompatible sources also in changeset `source` tags ([#11334])
 * Include the number of changeset tags with incompatible sources in `warnings:incompatible_source` changeset tag ([#8400])
@@ -57,6 +58,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 [#11334]: https://github.com/openstreetmap/iD/pull/11334
 [#11353]: https://github.com/openstreetmap/iD/pull/11353
 [#11361]: https://github.com/openstreetmap/iD/issues/11361
+[#11365]: https://github.com/openstreetmap/iD/issues/11365
 
 
 # v2.36.0
