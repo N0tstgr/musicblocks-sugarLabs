@@ -46,6 +46,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 * Include the number of changeset tags with incompatible sources in `warnings:incompatible_source` changeset tag ([#8400])
 #### :bug: Bugfixes
 * Display relative time section of "last edited {time ago} by…" text in the correct language when the user's locale is different from the browser language ([#11361])
+* Fix crash when a way has more than 2000 nodes ([#11360])
 #### :earth_asia: Localization
 #### :hourglass: Performance
 * Compress changesets before uploading, to slightly reduce bandwidth ([#11353], thank [@k-yle])
@@ -57,6 +58,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 [#11141]: https://github.com/openstreetmap/iD/pull/11141
 [#11334]: https://github.com/openstreetmap/iD/pull/11334
 [#11353]: https://github.com/openstreetmap/iD/pull/11353
+[#11360]: https://github.com/openstreetmap/iD/issues/11360
 [#11361]: https://github.com/openstreetmap/iD/issues/11361
 [#11365]: https://github.com/openstreetmap/iD/issues/11365
 
