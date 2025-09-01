@@ -216,9 +216,9 @@ describe('iD.serviceTaginfo', function() {
             );
         });
 
-        it('does not get values for extremely unpopular keys', async () => {
+        it('does not get values for extremely popular keys', async () => {
             fetchMock.mock(/\/key\/values/, {
-                body: '{"data":[{"value":"Rue Pasteur","description":"", "count":3},' +
+                body: '{"data":[{"value":"Rue Pasteur","description":"", "count":3000},' +
                     '{"value":"Via Trieste","description":"", "count":1}]}',
                 status: 200,
                 headers: { 'Content-Type': 'application/json' }
