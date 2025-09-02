@@ -41,6 +41,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 * Render the `side` tag of vertices (such as traffic signs) in form of small triangles pointing to the respective side of the way ([#10303], thanks [@k-yle])
 * Don't suggest values from Taginfo for `name:xx` tags ([#10287], thanks [@draunger])
 #### :scissors: Operations
+* Be slightly more lenient when searching relations by id in the raw membership editor ([#9575])
 #### :camera: Street-Level
 * Always hide sequence lines when their photos are hidden by the date filter ([#11365])
 #### :white_check_mark: Validation
@@ -57,6 +58,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :hammer: Development
 
 [#8400]: https://github.com/openstreetmap/iD/issues/8400
+[#9575]: https://github.com/openstreetmap/iD/issues/9575
 [#10287]: https://github.com/openstreetmap/iD/issues/10287
 [#11141]: https://github.com/openstreetmap/iD/pull/11141
 [#11334]: https://github.com/openstreetmap/iD/pull/11334
