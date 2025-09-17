@@ -20,7 +20,7 @@ import { osmSummableTags } from '../osm/tags';
 //   https://github.com/systemed/potlatch2/blob/master/net/systemeD/halcyon/connection/actions/SplitWayAction.as
 //
 export function actionSplit(nodeIds, newWayIds) {
-    // accept single ID for backwards-compatiblity
+    // accept single ID for backwards-compatibility
     if (typeof nodeIds === 'string') nodeIds = [nodeIds];
 
     var _wayIDs;
