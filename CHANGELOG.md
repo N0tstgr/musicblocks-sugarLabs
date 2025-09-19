@@ -37,6 +37,8 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 
 # unreleased (v2.37.0-dev)
 
+#### :mega: Release Highlights
+* Add dark mode theme ([#8214], thanks [@hlfan] and [@AntonKhorev]!)
 #### :sparkles: Usability & Accessibility
 * Render the `side` tag of vertices (such as traffic signs) in form of small triangles pointing to the respective side of the way ([#10303], thanks [@k-yle])
 * Don't suggest values from Taginfo for `name:xx` tags ([#10287], thanks [@draunger])
@@ -61,6 +63,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :mortar_board: Walkthrough / Help
 #### :hammer: Development
 
+[#8214]: https://github.com/openstreetmap/iD/issues/8214
 [#8400]: https://github.com/openstreetmap/iD/issues/8400
 [#9563]: https://github.com/openstreetmap/iD/issues/9563
 [#9575]: https://github.com/openstreetmap/iD/issues/9575
@@ -75,13 +78,12 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 [#11403]: https://github.com/openstreetmap/iD/issues/11403
 [#11412]: https://github.com/openstreetmap/iD/pull/11412
 [@Ankitgkp]: https://github.com/Ankitgkp
+[@AntonKhorev]: https://github.com/AntonKhorev
 
 
 # v2.36.0
 ##### 2025-08-27
 
-#### :mega: Release Highlights
-* Add dark mode theme ([#8214], thanks [@hlfan]!)
 #### :sparkles: Usability & Accessibility
 * use `addr:` tags to label features with no name ([#8440], thanks [@k-yle])
 * The flip operation now works on nodes with no `direction` tag, to support quickly adding `direction` to features like traffic signs ([#9317], thanks [@k-yle])
@@ -119,7 +121,6 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 * Configure preview deployments for Pull Requests ([#11332], thanks [@k-yle])
 
 [#7629]: https://github.com/openstreetmap/iD/pull/7629
-[#8214]: https://github.com/openstreetmap/iD/issues/8214
 [#8440]: https://github.com/openstreetmap/iD/pull/8440
 [#9317]: https://github.com/openstreetmap/iD/issues/9317
 [#9511]: https://github.com/openstreetmap/iD/pull/9511

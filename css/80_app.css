@@ -2544,12 +2544,12 @@ div.combobox {
 .field-help-nav-item:active,
 .field-help-nav-item:focus {
     color: var(--link-focus-color);
-    background-color: #efefef;
+    background-color: var(--bg-color-3);
 }
 @media (hover: hover) {
     .field-help-nav-item:hover {
         color: var(--link-focus-color);
-        background-color: #efefef;
+        background-color: var(--bg-color-3);
     }
 }
 
