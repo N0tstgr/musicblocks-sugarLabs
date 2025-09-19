@@ -421,15 +421,23 @@ export function coreContext() {
 
   /* Container */
   let _container = d3_select(null);
+  let _theme;
   context.container = function(val) {
     if (!arguments.length) return _container;
     _container = val;
     _container.classed('ideditor', true);
+    _container.classed(`theme-${_theme}`, !!_theme);
     return context;
   };
   context.containerNode = function(val) {
     if (!arguments.length) return context.container().node();
     context.container(d3_select(val));
+    return context;
+  };
+  context.theme = function(val) {
+    if (!arguments.length) return _theme;
+    _theme = val;
+    context.container(_container); // refresh theme
     return context;
   };
 
