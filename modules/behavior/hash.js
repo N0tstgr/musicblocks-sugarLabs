@@ -174,6 +174,10 @@ export function behaviorHash(context) {
                 return;
             }
         }
+
+        if (q.theme) {
+          context.theme(q.theme);
+        }
     }
 
     function behavior() {

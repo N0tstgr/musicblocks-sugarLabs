@@ -426,7 +426,8 @@ export function coreContext() {
     if (!arguments.length) return _container;
     _container = val;
     _container.classed('ideditor', true);
-    _container.classed(`theme-${_theme}`, !!_theme);
+    _container.classed('theme-dark', _theme === 'dark');
+    _container.classed('theme-light', _theme === 'light');
     return context;
   };
   context.containerNode = function(val) {
@@ -555,6 +556,10 @@ export function coreContext() {
 
       if (context.initialHashParams.locale) {
         localizer.preferredLocaleCodes(context.initialHashParams.locale);
+      }
+
+      if (context.initialHashParams.theme) {
+        context.theme(context.initialHashParams.theme);
       }
 
       // kick off some async work
