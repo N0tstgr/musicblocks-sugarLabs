@@ -140,9 +140,7 @@ export function behaviorHash(context) {
         }
 
         if (q.locale && q.locale !== localizer.preferredLocaleCodes().join(',')) {
-          localizer
-            .preferredLocaleCodes(q.locale)
-            .ensureLoaded();
+          localizer.preferredLocaleCodes(q.locale);
           context.ui().restart();
         }
 
