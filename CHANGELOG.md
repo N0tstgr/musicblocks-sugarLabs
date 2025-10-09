@@ -61,6 +61,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 * Compress changesets before uploading, to slightly reduce bandwidth ([#11353], thank [@k-yle])
 * Migrate stored history data from LocalStorage to IndexedDB which allows larger amount of changed data to be stored and enhanced performance ([#11141], thanks [@Deeptanshu-sankhwar])
 #### :mortar_board: Walkthrough / Help
+* fix walkthrough getting stuck after "delete point" step ([#11442], thanks [@bgo-bell])
 #### :hammer: Development
 
 [#8214]: https://github.com/openstreetmap/iD/issues/8214
@@ -79,6 +80,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 [#11412]: https://github.com/openstreetmap/iD/pull/11412
 [@Ankitgkp]: https://github.com/Ankitgkp
 [@AntonKhorev]: https://github.com/AntonKhorev
+[@bgo-bell]: https://github.com/bgo-bell 
 
 
 # v2.36.0
