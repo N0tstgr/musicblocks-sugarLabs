@@ -7,7 +7,7 @@ import browserslistToEsbuild from 'browserslist-to-esbuild';
 let args = parseArgs({options: {
   watch: { type: 'boolean' },
   stats: { type: 'boolean' }
-}});
+}}).values;
 
 const context = await esbuild.context({
   define: envs,
