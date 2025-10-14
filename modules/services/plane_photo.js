@@ -12,7 +12,7 @@ export async function planePhotoFrame(context, selection) {
     let _photo;
     let _imageWrapper;
     let _planeWrapper;
-    let _viewerDimensions = [480, 360];
+    let _viewerDimensions = [320, 240];
     let _photoDimensions = _viewerDimensions;
     const _imgZoom = d3_zoom()
         .extent([[0, 0], _viewerDimensions])
