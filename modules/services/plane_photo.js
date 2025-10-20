@@ -12,11 +12,9 @@ export async function planePhotoFrame(context, selection) {
     let _photo;
     let _imageWrapper;
     let _planeWrapper;
-    let _viewerDimensions = [320, 240];
-    let _photoDimensions = _viewerDimensions;
+    let _viewerDimensions;
+    let _photoDimensions;
     const _imgZoom = d3_zoom()
-        .extent([[0, 0], _viewerDimensions])
-        .translateExtent([[0, 0], _viewerDimensions])
         .on('zoom', zoomPan)
         .on('start', () => _imageWrapper.classed('grabbing', true))
         .on('end', () => _imageWrapper.classed('grabbing', false));
@@ -75,20 +73,24 @@ export async function planePhotoFrame(context, selection) {
 
     /**
      * Shows the photo frame if hidden
-     * @param {*} context the HTML wrap of the frame
+     * @param {*} selection the HTML wrap of the frame
      */
-    module.showPhotoFrame = function(context) {
-        const isHidden = context.selectAll('.photo-frame.plane-frame.hide').size();
+    module.showPhotoFrame = function(selection) {
+        const isHidden = selection.selectAll('.photo-frame.plane-frame.hide').size();
 
         if (isHidden) {
-            context
+            selection
                 .selectAll('.photo-frame:not(.plane-frame)')
                 .classed('hide', true);
 
-            context
+            selection
                 .selectAll('.photo-frame.plane-frame')
                 .classed('hide', false);
         }
+
+        // set initial viewer size
+        _viewerDimensions = context.ui().photoviewer.viewerSize();
+        updateTransform();
 
         return module;
     };
