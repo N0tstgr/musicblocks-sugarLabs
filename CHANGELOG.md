@@ -59,6 +59,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 * Fix crash when a way has more than 2000 nodes ([#11360])
 * Fix data `source`s incorrectly flagged as _proprietary data_: `esri/Google_Open_Buildings` ([#11412], thanks [@Ankitgkp])
 * Keep `natural=coastline` tag on the way when a coastline way that is also an area (e.g. `place=islet`) is split and converted into a multipolygon ([#9563])
+* Fix address preset from being hidden in presets list when "point" features are hidden, but "address points" visible ([#11456])
 #### :earth_asia: Localization
 #### :hourglass: Performance
 * Compress changesets before uploading, to slightly reduce bandwidth ([#11353], thank [@k-yle])
@@ -81,6 +82,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 [#11402]: https://github.com/openstreetmap/iD/pull/11402
 [#11403]: https://github.com/openstreetmap/iD/issues/11403
 [#11412]: https://github.com/openstreetmap/iD/pull/11412
+[#11456]: https://github.com/openstreetmap/iD/issues/11456
 [#11466]: https://github.com/openstreetmap/iD/issues/11466
 [@Ankitgkp]: https://github.com/Ankitgkp
 [@AntonKhorev]: https://github.com/AntonKhorev
