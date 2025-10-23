@@ -73,6 +73,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 [#9563]: https://github.com/openstreetmap/iD/issues/9563
 [#9575]: https://github.com/openstreetmap/iD/issues/9575
 [#10287]: https://github.com/openstreetmap/iD/issues/10287
+[#10303]: https://github.com/openstreetmap/iD/pull/10303
 [#11141]: https://github.com/openstreetmap/iD/pull/11141
 [#11334]: https://github.com/openstreetmap/iD/pull/11334
 [#11353]: https://github.com/openstreetmap/iD/pull/11353
@@ -82,6 +83,8 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 [#11402]: https://github.com/openstreetmap/iD/pull/11402
 [#11403]: https://github.com/openstreetmap/iD/issues/11403
 [#11412]: https://github.com/openstreetmap/iD/pull/11412
+[#11423]: https://github.com/openstreetmap/iD/pull/11423
+[#11442]: https://github.com/openstreetmap/iD/pull/11442
 [#11456]: https://github.com/openstreetmap/iD/issues/11456
 [#11466]: https://github.com/openstreetmap/iD/issues/11466
 [@Ankitgkp]: https://github.com/Ankitgkp
