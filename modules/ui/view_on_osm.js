@@ -38,7 +38,7 @@ export function uiViewOnOSM(context) {
             const { user, timestamp } = uiViewOnOSM.findLastModifiedChild(context.history().base(), _what);
 
             linkEnter
-                .call(t.append('inspector.last_modified', {
+                .call(t.append('inspector.last_touched', {
                     timeago: getRelativeDate(new Date(timestamp)),
                     user
                 }))
