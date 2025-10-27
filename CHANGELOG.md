@@ -35,7 +35,7 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 [@xxxx]: https://github.com/xxxx
 -->
 
-# unreleased (v2.37.0-dev)
+# v2.37.0
 
 #### :mega: Release Highlights
 * Add dark mode theme ([#8214], thanks [@hlfan] and [@AntonKhorev]!)
@@ -61,13 +61,11 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 * Keep `natural=coastline` tag on the way when a coastline way that is also an area (e.g. `place=islet`) is split and converted into a multipolygon ([#9563])
 * Fix address preset from being hidden in presets list when "point" features are hidden, but "address points" visible ([#11456])
 * Preserve existing `layer` tags when adding a bridge or tunnel ([#11511], thanks [@k-yle])
-#### :earth_asia: Localization
 #### :hourglass: Performance
 * Compress changesets before uploading, to slightly reduce bandwidth ([#11353], thank [@k-yle])
 * Migrate stored history data from LocalStorage to IndexedDB which allows larger amount of changed data to be stored and enhanced performance ([#11141], thanks [@Deeptanshu-sankhwar])
 #### :mortar_board: Walkthrough / Help
 * fix walkthrough getting stuck after "delete point" step ([#11442], thanks [@bgo-bell])
-#### :hammer: Development
 
 [#8214]: https://github.com/openstreetmap/iD/issues/8214
 [#8400]: https://github.com/openstreetmap/iD/issues/8400
