@@ -41,11 +41,14 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :scissors: Operations
 #### :camera: Street-Level
 #### :white_check_mark: Validation
+* Don't error on features with a sole `note` tag ([#11522])
 #### :bug: Bugfixes
 #### :earth_asia: Localization
 #### :hourglass: Performance
 #### :mortar_board: Walkthrough / Help
 #### :hammer: Development
+
+[#11522]: https://github.com/openstreetmap/iD/issues/11522
 
 
 # v2.37.1
