@@ -43,12 +43,14 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 #### :white_check_mark: Validation
 * Don't error on features with a sole `note` tag ([#11522])
 #### :bug: Bugfixes
+* Correctly resolve subtitles of NSI presets when base preset has a crossreferenced string ([11527])
 #### :earth_asia: Localization
 #### :hourglass: Performance
 #### :mortar_board: Walkthrough / Help
 #### :hammer: Development
 
 [#11522]: https://github.com/openstreetmap/iD/issues/11522
+[#11527]: https://github.com/openstreetmap/iD/issues/11527
 
 
 # v2.37.1
