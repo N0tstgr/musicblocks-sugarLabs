@@ -50,8 +50,17 @@ _Breaking developer changes, which may affect downstream projects or sites that 
 
 [#11522]: https://github.com/openstreetmap/iD/issues/11522
 
-
 # v2.37.3
+##### 2025-10-31
+
+#### :bug: Bugfixes
+* bump id-taging-schema to 6.13.4 ([#11532])
+* fix a potential crash when base presets are missing
+
+[#11532]: https://github.com/openstreetmap/iD/issues/11532
+
+
+# v2.37.2
 ##### 2025-10-30
 
 * Correctly resolve subtitles of NSI presets when base preset has a crossreferenced string ([#11527])
